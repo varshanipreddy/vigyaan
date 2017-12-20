@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/emer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="27sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/colorAccentDark"
+
+        />
+
+
+
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="30sp"
+        android:background="@color/translucent"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/colorAccentDark"
+        android:id="@+id/TFusername"
+
+
+
+        />
+    <!--ctrl shift ? to leave a comment.....
+    alt enter to send the text into string-->
+
+    <!--maximum text size is 26sp preferable...and minimum 12sp-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textSize="27sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/colorAccentDark"
+
+
+
+        />
+
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="30sp"
+        android:background="@color/translucent"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/colorAccentDark"
+
+
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:id="@+id/TFpassword"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate token"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/emergency_signup"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick"
+
+        />
+
+
+</LinearLayout>
